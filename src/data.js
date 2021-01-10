@@ -10,7 +10,7 @@ function naijaSongs() {
       id: uuidv4(),
       active: true,
       color: ['#AB3527', '#92543A'],
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=10262',
+      audio: `${process.env.REACT_APP_API_KEY}/video/upload/v1605219115/Buju_ft._Burna_Boy_-_Lenu_Remix_Official_Video.mp3`,
     },
     {
       name: 'Serendipity',
